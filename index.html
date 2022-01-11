@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-           #ident01 {color: blueviolet;}
-        #ident02 {color: chocolate;}
-        .class03 {color: darkgray;}
-        .class04 {color: darkgray;}
-        .class05 {font-family: Verdana, Arial,sans-serif; 
-                 font-size: 11pt;
-                }
-        .class06 {color: yellowgreen;}
-        .class07 {color: thistle;}
-        .class08 {color:darkgoldenrod}
-        .class09.class11{color:chartreuse}
-        .class10 .class12{color:coral}
-        p {color: tomato;}
+        div {color: blueviolet;}
+        h2 {font-family:Arial; font-size: 14;}
+        #ident01 {font-size: 13pt;color: cornflowerblue;}
+        #ident02 {font-size: 25pt;color:aquamarine}
+        .class03 {font-size: 10pt;color:blue}
+        .class04 {font-size: 21pt;color: black;}
+        .class05 {font-family: Verdana, Arial, Helvetica, sans-serif; 
+            font-size: 14pt; /* Размер шрифта в пунктах */ 
+                 color:orangered
+                 }
+        .class06 {font-size: 24pt; color:brown}
+        .class07 {font-size: 14pt;color:crimson}
+        .class08 {font-size: 22pt;color:darkgoldenrod}
+        .class09.class11{font-size: 12pt;color:chartreuse}
+        .class10 .class12{font-size: 10pt;color:coral}  
     </style>
 </head>
 <body>
@@ -62,34 +64,35 @@
         {/тег1}
     </p>
     <p>
-        Добавил еще одну часть<br>
+       <h2>Добавил еще одну часть<br></h2> 
         Нужно создать 10 любых элементов с текстом на странице и каждому из них назначить разный цвет, с помощью разных селекторов.<br>
     </p>
-    <a href=#>Элемент 1) Ссылка.</a>
-    <h1>Элемент 2)Заголовок первого уровня</h1> 
-    <h2>Элемент 3)Заголовок второго уровня</h2> 
-    <h3>Элемент 4)Заголовок третьего уровня</h3>
+    <a href=# id="ident01">Элемент 1) Ссылка.</a>
+    <h1 id="ident02"></h1> 2)Заголовок первого уровня</h1> 
+    <h2 id="ident03"></h2> 3)Заголовок второго уровня</h2> 
+    <h3 id="ident04"></h3> 4)Заголовок третьего уровня</h3>
 
-    <ul> Элемент 5 Маркерованый список
+    <ul class="class09 class11"> Элемент 5 Маркерованый список
         <li>Элемент 5)Элем маркированного списка 1</li>
         <li>Элемент 5)Элем маркированного списка 2</li>
     </ul> 
 
-    <ol> Элемент 6 Нумерованый список
-        <li>Элемент 6)Элем нумерованного списка 1</li>
+    <ol class="class10"></ol> Элемент 6 Нумерованый список
+        <li class="class12"></li>Элемент 6)Элем нумерованного списка 1</li>
         <li>Элемент 6)Элем нумерованного списка 2</li>
     </ol> 
 
-    <p>
+    <p class="class05"></p>
         Элемент 7) Абзац.Внешний вид HTML разметки во многом определяется CSS стилями.
     </p> 
 
-    <p>Элемент 8)Абзац. Говорят,что не всегда хорошо нужно использовать селектора на начальных этапах.
+    <p class="class06"></p>
+        Элемент 8)Абзац. Говорят,что не всегда хорошо нужно использовать селектора на начальных этапах.
     </p>
     <div> 
         Элемент 9)Блок текста div.
     </div>
-    <p>
+    <p class="class07"></p>
         Элемент 10) Еще один абзац.
     </p>
 </body>
